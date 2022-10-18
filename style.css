@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Open sans, sans-serif;
+}
+
+.hero-image { 
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)), 
+    url("bilder/Main\ img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.hero-text1{
+    border-color: gray;
+    border-style: solid;
+    border-width: 0vw 0.1vw 0.1vw 0.1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vw;
+
+    position: absolute;
+    top: 45vh;
+    left: 2vw;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.hero-text2{
+    position: absolute;
+    top: 1vh;
+    left: 2vw;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.hero-text3{
+    position: absolute;
+    top: 80vh;
+    right: 4vw;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1vw;
+
+}
+
+.tekst {
+    font-family:Times New Roman, Times, serif;
+    color: black;
+    font-weight: normal; 
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.storbokstav {
+    float: left;
+font-size: 100px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 5.5rem;
+}
+
+
+    .sidebartittel {
+        text-align: right;
+        
+    font-family: 'ms-madi';
+        
+        color: #2e2f36;
+        font-weight: normal; 
+        font-size: 30px;
+        margin-right: 20em;
+        font-size: 45px;
+    }
+
+
+.sidebar {
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+    font-weight: bold; 
+font-size: 18px;
+width: 600px;
+margin-left: -2em;
+margin-top: 3em;
+line-height: 1.6;
+}
+
+.grå {
+    color: grey; }
+
+.tittel2 {
+    font-family: 'Source Serif Pro', serif;
+    color: #2e2f36;
+    font-weight:lighter;
+    
+font-size: 80px;
+
+}
+    
+
+.rosa {
+    color: #ec446b; }
+
+.tittel2undertekst {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+
+.sidebartittel2 {
+    font-family: Tahoma, sans-serif;
+    color: #ec446b;
+    font-weight: normal; 
+}
+.sidebar2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2e2f36;
+    font-weight: bold; 
+}
+
+    .flexbox-container-1 {
+        display: flex;
+        flex-direction: row;
+   
+        
+        
+        
+    
+    }
+
+    .flexbox-container-2 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+    
+    }
+
+
+
+    .flexbox-item1 {
+        float: left;
+    }
+
+    .flexbox-item2 {
+        display: flex;
+        margin-left: 60px;
+    }
+
+    .flexbox-item-3 {
+        display: flex;
+        margin-left: 60px;
+        margin-bottom: 60px;
+    }
+
+    .flexbox-container-4 {
+        display: flex;
+        
+        
+        
+    }
+
+    .flexboxitem4 {
+        margin-left: 60px;
+    }
+
+    .flexboxitem5 {
+        margin-left: 60px;
+        margin-right: 50px;
+    }
+
+    .flexbox-item-1 {
+        margin-left: 70px;
+        margin-right: 50px;
+        
+        
+    }
+
+    .flexbox-itemm1 {
+        width: 450px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    
+        
+   
+    }
+
+    .flexbox-itemm2 {
+        
+    }
+
+.future {
+    margin-left: 20px;
+}
+
+.lectures {
+    margin-left: 54px;
+} 
+
+    .nobel {
+        margin-left: 80px;
+    }
+
+    .wind {
+        margin-left: 30px;
+    }
+
+    .building {
+        margin-left: 30px;
+    }
+
+    .storbokstav2 {
+        font-size: 60px;
+        float: left;
+        font-size: 100px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 5.5rem;
+    }
+
+    .bildekarolin {
+        padding-top: 60px;
+    }
